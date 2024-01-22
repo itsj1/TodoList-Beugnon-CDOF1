@@ -20,7 +20,7 @@ This is a console-based application for managing a todo list. Users can view, ad
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/TodoList-Beugnon-CDOF1.git
+   git clone https://github.com/itsj1/TodoList-Beugnon-CDOF1.git
 
 
 2. **Navigate to the project directory:**
