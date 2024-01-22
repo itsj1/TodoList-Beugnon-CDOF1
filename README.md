@@ -3,25 +3,21 @@
 URL : https://github.com/itsj1/TodoList-Beugnon-CDOF1.git
 
 
-1) How to Run the Project:
+# Todo List Console Application
 
-Requirements:
+## Description
 
-Python 3.x installed on your machine.
-Steps:
+This is a console-based application for managing a todo list. Users can view, add, and delete tasks from their todo list. The todo list is stored in a JSON file, and the user can interact with the application through a simple menu-driven interface.
 
-Clone the repository:
+## How to Run the Project
 
-bash
-Copy code
-git clone https://github.com/yourusername/TodoList-Beugnon-CDOF1.git
-Navigate to the project directory:
+### Requirements
 
-bash
-Copy code
-cd TodoList-Beugnon-CDOF1
-Run the application:
+- Python 3.x installed on your machine.
 
-bash
-Copy code
-python todo_app.py
+### Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/TodoList-Beugnon-CDOF1.git
