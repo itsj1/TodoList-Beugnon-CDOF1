@@ -21,3 +21,19 @@ This is a console-based application for managing a todo list. Users can view, ad
 
    ```bash
    git clone https://github.com/yourusername/TodoList-Beugnon-CDOF1.git
+
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd TodoList-Beugnon-CDOF1
+
+
+3. **Run the application:**
+
+    ```bash
+   python todo_app.py
+
+
+
+
