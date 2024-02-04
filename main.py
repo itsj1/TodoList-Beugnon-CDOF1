@@ -57,11 +57,19 @@ def main():
             todo_list.display_tasks()
         elif choice == '2':
             task = input("Entrez la nouvelle tâche : ")
-            priority = int(input("Entrez la priorité de la tâche (0 par défaut) : "))
+            try:
+                priority = int(input("Entrez la priorité de la tâche (0 par défaut) : "))
+            except ValueError:
+                print("La priorité doit être un nombre entier. Utilisation de la priorité par défaut (0).")
+                priority = 0
             todo_list.add_task(task, priority)
         elif choice == '3':
             todo_list.display_tasks()
-            index = int(input("Entrez le numéro de la tâche à supprimer : "))
+            try:
+                index = int(input("Entrez le numéro de la tâche à supprimer : "))
+            except ValueError:
+                print("Veuillez entrer un numéro valide.")
+                continue
             todo_list.delete_task(index)
         elif choice == '4':
             print("Merci d'utiliser l'application Todo List. Au revoir!")
