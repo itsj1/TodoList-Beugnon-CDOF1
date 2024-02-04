@@ -1,1 +1,7 @@
-["Faire le TD de d\u00e9centralization avant la prochaine s\u00e9ance ", "Test de suppresion "]
+[
+    {"task": "Faire le TD de décentralization avant la prochaine séance", "priority": 2},
+    {"task": "Test de suppresion", "priority": 1},
+    {"task": "Faire à manger", "priority": 1}
+
+]
+  
