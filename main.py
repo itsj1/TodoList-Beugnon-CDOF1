@@ -66,8 +66,7 @@ def main():
         elif choice == '4':
             print("Merci d'utiliser l'application Todo List. Au revoir!")
             break
-        else:
-            print("Option invalide. Veuillez choisir une option valide.")
+
 
 if __name__ == "__main__":
     main()
